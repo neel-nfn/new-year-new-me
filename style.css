@@ -7,7 +7,7 @@
 
 /* Button Style */
 
-.btn-primary {
+.btn-banner {
     font-weight: 700;
     font-size: 20px;
     border: 0;
@@ -19,36 +19,59 @@
     margin-top: 30px;
 }
 
-/*Header and banner styles */
+.btn-call {
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: #dedbd9;
 
-header{
-    
+    margin: 0 100px;
+}
+
+.subscribe-btn {
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px;
+    padding: 18px 35px;
+    margin-top: 15px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+
+
 
 }
 
+/*Header and banner styles */
+
+header {}
+
 .banner {
-    
-    
-    background-image: url('/images/banner/banner2.png');
+
+
+    background-image: url('/images/banner/banner1.png');
     background-repeat: no-repeat;
     background-size: 100% auto;
     height: 808px;
     text-align: right;
     padding: 300px;
     width: auto;
-    
-    
 
-    
-    
- 
+
+
+
+
+
 }
 
 .banner-title {
-    font-size: 65px; 
+    font-size: 65px;
 }
 
-.primary-description{
+.primary-description {
     margin-top: 15px;
     color: #757575;
     font-size: 18px;
@@ -56,34 +79,86 @@ header{
 
 }
 
-.primary-iamge{
+.primary-image {
     width: 569px;
     height: 723.3px;
 }
 
-.fail-section{
+.fail-section {
     display: flex;
     justify-content: space-around;
-   
+
     align-items: center;
-    padding: 200px;
+    padding-bottom: 400px;
+
+
 }
 
-.failures{
+.failures {
     width: 416px;
     height: 400px;
+
 }
 
-.primary-title{
+.primary-title {
     font-weight: 700;
     font-size: 40px;
     text-align: center;
 }
 
-.container-plan{
+.container-plan {
     display: flex;
     justify-content: space-around;
     margin-top: 60px;
     align-items: center;
-    
+    margin-bottom: 130px;
+
+}
+
+.quote-cta {
+
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    margin-left: 330px;
+    background: linear-gradient(to right, rgb(68, 255, 0), rgb(236, 104, 104)), url(/images/watch.png);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    margin-bottom: 200px;
+    color: #88be08;
+
+
+
+
+
+
+}
+
+.quote-title {
+    text-align: left;
+    padding: 60px 100px;
+    color: rgb(45, 28, 5);
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-evenly;
+    height: 180px;
+    background-color: rgb(219, 204, 204);
+    padding: 300px;
+    width: auto;
+
+}
+
+.connect-me {
+    text-align: left;
+
+    width: 485px;
+    height: 317px;
+}
+
+.subscribe {
+    width: 325px;
+    height: 204px;
 }
