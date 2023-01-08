@@ -3,8 +3,6 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-
-
 /* Button Style */
 
 .btn-banner {
@@ -27,7 +25,6 @@
     height: 64px;
     border-radius: 5px;
     background: #dedbd9;
-
     margin: 0 100px;
 }
 
@@ -40,9 +37,6 @@
     height: 64px;
     border-radius: 5px;
     background: #FD6E0A;
-
-
-
 }
 
 /*Header and banner styles */
@@ -50,21 +44,13 @@
 header {}
 
 .banner {
-
-
-    background-image: url('/images/banner/banner4.png');
+    background-image: url('/images/banner/banner1.png');
     background-repeat: no-repeat;
     background-size: 100% auto;
     height: 808px;
     text-align: right;
     padding: 300px;
     width: auto;
-
-
-
-
-
-
 }
 
 .banner-title {
@@ -76,7 +62,6 @@ header {}
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
-
 }
 
 .primary-image {
@@ -84,26 +69,47 @@ header {}
     height: 723.3px;
 }
 
+.image-box {
+    width: 92.96px;
+    height: 92.96px;
+    text-align: center;
+}
+
 .fail-section {
     display: flex;
-    justify-content: space-around;
-
-    align-items: center;
+    justify-content: space-evenly;
+    align-items: right;
     padding-bottom: 400px;
-
-
+    padding-top: 50px;
 }
 
 .failures {
     width: 416px;
     height: 400px;
-
+    
 }
 
-.primary-title {
+
+
+.fail-title {
     font-weight: 700;
     font-size: 40px;
+    text-align: left;
+    padding-top: 120px;
+    
+}
+
+.plan-title{
     text-align: center;
+    font-weight: 700;
+    font-size: 40px;   
+}
+
+
+.success-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;   
 }
 
 .container-plan {
@@ -114,25 +120,25 @@ header {}
     margin-bottom: 130px;
 
 }
+.container-success {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    align-items: center;
+    margin-bottom: 130px;
+
+}
 
 .quote-cta {
-
     width: 1140px;
     height: 300px;
-    left: 230px;
-    margin-left: 330px;
     background: linear-gradient(to right, rgb(68, 255, 0), rgb(236, 104, 104)), url(/images/watch.png);
     background-blend-mode: soft-light;
     background-repeat: no-repeat;
+    margin-left: 300px;
+    margin-bottom: 80px;
     border-radius: 8px;
-    margin-bottom: 200px;
-    color: #88be08;
-
-
-
-
-
-
+    color: #be9d08;
 }
 
 .quote-title {
@@ -144,20 +150,21 @@ header {}
 .footer-section {
     display: flex;
     justify-content: space-evenly;
-    height: 180px;
     background-color: rgb(219, 204, 204);
-    padding: 300px;
+    padding-top: 70px;
     width: auto;
-
+    text-decoration: none;
 }
 
 .connect-me {
     text-align: left;
-
     width: 485px;
     height: 317px;
 }
 
+.connect-me a{
+    text-decoration: none;
+}
 .subscribe {
     width: 325px;
     height: 204px;
